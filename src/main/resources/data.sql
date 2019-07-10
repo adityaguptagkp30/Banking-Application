@@ -1,0 +1,1 @@
+insert into BANK values ('1','20000','aditya')

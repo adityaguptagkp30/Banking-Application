@@ -1,9 +1,15 @@
-package com.webapplication.webapplication;
+package com.example.bootba.model;
 
-public class Customer {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Bank {
+
+    @Id
     private int cid;
     private String cname;
-    private String bank;
+    private int balance;
 
     public int getCid() {
         return cid;
@@ -21,11 +27,11 @@ public class Customer {
         this.cname = cname;
     }
 
-    public String getBank() {
-        return bank;
+    public int getBalance() {
+        return balance;
     }
 
-    public void setBank(String bank) {
-        this.bank = bank;
+    public void setBalance(int balance) {
+        this.balance = balance;
     }
 }
