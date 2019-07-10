@@ -20,6 +20,7 @@
 </head>
 <body>
 <h3>Welcome to our Banking Application</h3>
-
+<%--<h2>Hello ${name}</h2>--%>
+<h2>Details ||->  ${obj.cid},${obj.cname},${obj.bank}</h2>
 </body>
 </html>
